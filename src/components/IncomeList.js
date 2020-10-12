@@ -16,7 +16,7 @@ function IncomeList({ income, setIncome }) {
   }
 
   const sortByDate = (a, b) => {
-    return a.date - b.date;
+    return income[a].date - income[b].date;
   }
 
   return (
